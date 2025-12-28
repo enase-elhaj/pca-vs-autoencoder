@@ -33,7 +33,7 @@ We compress this into a smaller latent space, then reconstruct and evaluate perf
 
 
 ## Repository Structure
-
+```text
 pca-vs-autoencoder/
 ├─ data/                     # Fashion-MNIST (downloaded automatically)
 ├─ notebooks/
@@ -48,7 +48,7 @@ pca-vs-autoencoder/
 ├─ reports/                  # Plots / figures (optional)
 ├─ requirements.txt
 └─ README.md
-
+```
 ## Dataset & EDA (01_EDA.ipynb)
 
 Loaded dataset via torchvision
